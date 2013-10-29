@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="181.0" prefWidth="313.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.curso.mb.CadastroProfessorController">
+  <children>
+    <Label layoutX="44.0" layoutY="28.0" text="Nome" textAlignment="RIGHT" />
+    <Label layoutX="20.0" layoutY="55.0" text="Disciplina" textAlignment="RIGHT" />
+    <Label layoutX="33.0" layoutY="81.0" text="Usuário" textAlignment="RIGHT" />
+    <Label layoutX="42.0" layoutY="107.0" text="Senha" textAlignment="RIGHT" />
+    <TextField fx:id="nome" layoutX="100.0" layoutY="25.0" prefWidth="200.0" />
+    <TextField fx:id="disciplina" layoutX="100.0" layoutY="52.0" prefWidth="200.0" />
+    <TextField fx:id="usuario" layoutX="100.0" layoutY="78.0" prefWidth="200.0" />
+    <TextField fx:id="senha" layoutX="100.0" layoutY="104.0" prefWidth="200.0" />
+    <Button fx:id="cadastrar" layoutX="214.0" layoutY="141.0" mnemonicParsing="false" onAction="#cadastrarAction" text="Cadastrar" />
+  </children>
+</AnchorPane>
