@@ -5,18 +5,18 @@ package br.com.curso.model;
  */
 public class Professor {
 	
-	private String nome;
+	//private String nome;
 	private String usuario;
 	private String senha;
-	private Disciplina disciplina;
+	//private Disciplina disciplina;
 	
 	
-	public String getNome() {
+	/*public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
+	}*/
 	public String getUsuario() {
 		return usuario;
 	}
@@ -30,7 +30,7 @@ public class Professor {
 		this.senha = senha;
 	}
 
-	
+	/*
 	public Disciplina getDisciplina() {
 		return disciplina;
 	}
@@ -43,7 +43,7 @@ public class Professor {
 	public void setNomeDisciplina(String nomeDisciplina) {
 		this.disciplina.setNome(nomeDisciplina);
 	}
-	
+	*/
 	
 
 }

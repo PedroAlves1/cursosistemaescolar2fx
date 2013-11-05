@@ -12,6 +12,7 @@ import javafx.stage.Stage;
  * pelo JavaFX, pois ela herda de Application, e contém o "main" do programa.
  * 
  * @author Marcelo
+ * @author Pedro
  *
  */
 public class Login extends Application {
