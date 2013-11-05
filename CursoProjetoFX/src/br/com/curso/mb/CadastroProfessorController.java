@@ -1,3 +1,4 @@
+/*
 package br.com.curso.mb;
 
 import javafx.collections.ObservableList;
@@ -47,3 +48,4 @@ public class CadastroProfessorController {
 		return (StageGeneric) root.getScene().getWindow();
 	}
 }
+*/

@@ -1,7 +1,7 @@
 package br.com.curso.model;
 
 import java.util.ArrayList;
-import java.util.Calendar;
+//import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -11,14 +11,14 @@ import java.util.List;
 public class Aluno {
 	
     private String nome;
-    private Calendar dataNascimento;
+    //private Calendar dataNascimento;
     private String ra;
-    private String sexo;
-    private int anoLetivo;
-    private int numero;
+    //private String sexo;
+    // private int anoLetivo;
+    //private int numero;
     private List <Disciplina> disciplinas;
-    private Endereco endereco;
-    private Classe classe;
+    //private Endereco endereco;
+    //private Classe classe;
     
     
     //Construtor
@@ -47,7 +47,7 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+/*
     public Calendar getDataNascimento() {
         return dataNascimento;
     }
@@ -55,7 +55,7 @@ public class Aluno {
     public void setDataNascimento(Calendar dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
-
+*/
     public String getRa() {
         return ra;
     }
@@ -63,7 +63,7 @@ public class Aluno {
     public void setRa(String ra) {
         this.ra = ra;
     }
-
+/*
     public String getSexo() {
         return sexo;
     }
@@ -91,7 +91,8 @@ public class Aluno {
     public void setNumero(int numero) {
         this.numero = numero;
     }
-
+    * */
+/*
     public Endereco getEndereco() {
         return endereco;
     }
@@ -106,5 +107,5 @@ public class Aluno {
 
     public void setClasse(Classe classe) {
         this.classe = classe;
-    }
+    }*/
 }

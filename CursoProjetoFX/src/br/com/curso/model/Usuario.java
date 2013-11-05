@@ -3,7 +3,7 @@ package br.com.curso.model;
 /**
  * @author Marcelo
  */
-public class Professor {
+public class Usuario {
 	
 	//private String nome;
 	private String usuario;
